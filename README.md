@@ -5,6 +5,7 @@ This was one of my assignments for CMPS111 Operating Systems that involves using
 - "myshell.c", C source file for the shell program.
 - "lex.l", Lex source file.
 - Makefile
+
 All of these files are located in the lib directory. 
 
 **Note: This project requires [Flex](https://www.gnu.org/software/flex/)**
