@@ -7,7 +7,7 @@ This was one of my assignments for CMPS111 Operating Systems that involves using
 - Makefile
 All of these files are located in the lib directory. 
 
-## Note: This project requires [Flex](https://www.gnu.org/software/flex/)
+**Note: This project requires [Flex](https://www.gnu.org/software/flex/)**
 
 # Instructions for building:
 - Run "make" in the lib directory.
