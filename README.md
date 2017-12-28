@@ -18,7 +18,7 @@ All of these files are located in the lib directory.
 - Enter command after the ">" prompt. 
 
 ## Example run:
-![Imgur](https://i.imgur.com/JoVhiNr.gifv)
+![Imgur](https://i.imgur.com/JoVhiNr.gif)
 
 
 # Instructions for cleaning executable:
