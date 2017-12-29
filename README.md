@@ -94,10 +94,11 @@ The main issue encountered concerns parsing the string input. The getline() func
 # Known Error Cases:
 
 The main error cases that are known are given below:
-	1. Prompt does not show sometime when multiple piped commands needs execution.
 
-	2. Rarely previous file names shown up as existing when ls is called for example, however they will not opened or recognized for some reason, with a "file not found" error message.
+1. Prompt does not show sometime when multiple piped commands needs execution.
 
-	3. A file myshell.core will be created that might signify that the program faces memory issues.
+2. Rarely previous file names shown up as existing when ls is called for example, however they will not opened or recognized for some reason, with a "file not found" error message.
+
+3. A file myshell.core will be created that might signify that the program faces memory issues.
 
 The main error case is the fact that sometimes the prompt will not show if piping is involved. This is only when piping multiple commands, and no other cases. The commands execute properly, but the prompt not showing might signify that the main loop is called out of order with in the recursive calls to fork.
