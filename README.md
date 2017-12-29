@@ -34,11 +34,13 @@ These commands will be executed in the main process, since all the child process
 
 The basic pseudo code for cd will be as follow:
 
-```If input[0] equals cd
+```
+If input[0] equals cd
 	If number of arguments equal 1
 		Use chdir to change directory to home
 	Else
 		Use chdir to change directory to path specified by input[1]
-Continue (skip rest of the loop)```
+Continue (skip rest of the loop)
+```
 
 The program will exit when the user types in exit, however it will first wait for all the child processes to finish before exiting.
